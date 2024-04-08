@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>アンケート</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <div class="box">
+    <form action="form2.html">
+        
+    <p>Axizの研修をご利用いただき、誠にありがとうございます。<br>
+    以下の内容の記入及び送信し頂けると幸いです。</p>
+   
+       <p>会社名 <span class="hissu">必須</span><br>
+        <input type="text"="company" name="company" " placeholder= "例）株式会社テクノコア" ></p>
+
+      <div class="form-group">
+        <p>お名前 <span class="hissu">必須</span><br>
+         <input type="text"="name" name="name"" placeholder="例）天久野　興亜"></p>
+       </div>
+
+       <div class="form-group">
+        <p>メールアドレス<br>
+         <input type="text"="mail" name="mail"" placeholder="例）example@axiz.co.jp"></p>
+       </div>
+
+       <div class="form-group">
+        <p>年齢<br>
+         <input type="text"="age" name="age"></p>
+       </div>
+
+       <p>受験コース<br>
+       <label><span class="box1"><input type="radio" name="sei" value="male" checked>java</span></label>
+       <label><span class="box1"><input type="radio" name="sei" value="female">インフラ</span></label>
+    </p>
+
+    <div class="place">
+        <p>会場<br>
+        <select id="places" name="places">
+          <option value="1" selected>日本橋A教室</option>
+          <option value="2">池袋A教室</option>
+          <option value="3">新宿A教室</option>
+         </select>
+         </p>
+      </div>
+
+      <div class="subject">
+            <p>詳しく学びたい内容(複数回答可)<br><label>
+            </label>
+            <label>
+                <span class="contens"><input type="checkbox" name="contens" value="mannare">ビジネスマナー</span>
+              </label>
+              <label>
+                <span class="contens"> <input type="checkbox" name="contens" value="HTML/CSS">HTML/CSS</span>
+                </label>
+                <label>
+                  <span class="contens"><input type="checkbox" name="contens" value="JavaScript">JavaScript</span>
+                </label>
+                <label>
+                  <span class="contens"> <input type="checkbox" name="contens" value="Java">Java</span>
+                </label>
+                <label>  
+                  <span class="contens"><input type="checkbox" name="contens" value="DB">データベース</span>
+                  <span class="contens"><input type="checkbox" name="contens" value="Linu">Linux</span>
+                </label>
+              </p>
+            </div>
+            
+            <div class="form-group">
+                
+                <p>ご意見<br><textarea id="message" name="message">自由にをご記入ください。</textarea></p>
+              </div>
+              <button type="submit">送信</button>
+            </form>
+            </div>
+          </div>
+        </div>
+        </body>

@@ -1,0 +1,39 @@
+body{
+    background-color: lightcyan;
+   
+    
+}
+
+.box {
+    padding: 0% ;
+    padding-left: 15px ;
+    padding-bottom: 150px;
+    font-weight: bold;
+    width: 500px;
+    height: 700px;
+    text-align:  center;   
+    
+    background-color:white;
+    border: solid 3px white;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom:15px;
+
+    text-align:left;
+}
+
+.contens{
+    display:block;
+}
+
+#message{
+    width: 400px;
+    height: 75px;
+}
+
+.hissu{
+    background-color: orange;
+    color:white;
+   
+}

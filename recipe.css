@@ -1,0 +1,29 @@
+
+
+.title {
+    text-align:center;
+    
+}
+
+body{
+    background-image: url(form.jpg);
+}
+
+table {
+    border-color:red;
+    background-color:lightyellow;
+
+}
+.text {
+    text-align:center;
+}
+
+.sample{
+    font-weight:bolder;
+  }
+
+  .flex-container {
+    display: flex;
+  flex-wrap: wrap;
+  }
+
